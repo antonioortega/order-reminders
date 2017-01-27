@@ -1,0 +1,88 @@
+
+# From file: Reminder/etc/config.xml
+"Order Reminders","Lembretes de Pedidos"
+"Reminder One","1° Lembrete"
+"Reminder Two","2° Lembrete"
+"Reminder Three","3° Lembrete"
+
+# From file: Reminder/etc/system.xml
+"Kinento","Kinento"
+"Time criteria","Critérios de tempo"
+"On-account customers:","Clientes por conta:"
+"Prepaid customers:","Clientes pré-pagos:"
+"General settings","Configurações Gerais"
+"Include orders using payments:","Incluir pedidos usando pagamentos:"
+"Include orders with status","Incluir pedidos com status"
+"Email settings","Configurações de e-mail"
+"Attachments for on-account customers","Anexos para clientes por conta"
+"Attachments for prepaid customers","Anexos para clientes pré-pagos"
+"First notification after","Primeira notificação após"
+"days","dias"
+"Second notification after","Segunda notificação após"
+"Third, fourth, fifth, etc.","Terceira, quarta, quinta, etc."
+"days after previous notification","dias após a notificação anterior"
+"Cancel orders automatically after","Cancelar pedidos automaticamente após"
+"Include orders starting from","Incluir pedidos a partir de"
+"input as a UNIX timestamp (see unixtimestamp.com)","Entrada como um timestamp UNIX (veja em <a href="http://www.unixtimestamp.com/" target="timestamp">www.unixtimestamp.com</a>)"
+"On-account customers are in the following group(s)","Os clientes por conta estão no(s) seguinte(s) grupo(s)"
+"Prepaid customers are set to all other groups","Os clientes pré-pagos são definidos para todos os outros grupos"
+"Send a copy to the following email address","Envie uma cópia para o seguinte endereço de e-mail"
+"Leave blank to disable this feature","Deixe em branco para desativar este recurso"
+"First reminder template","Template do primeiro lembrete"
+"Create new templates using System-Transactional emails","Criar novos modelos usando o sistema transacional e-mails"
+"Second reminder template","Template do segundo lembrete"
+"Third reminder template","Template do terceiro lembrete"
+"Special text for on-account customers","texto especial para os clientes por conta"
+"input in HTML","entrada em HTML"
+"Special text for prepaid customers","Texto especial para clientes pré-pagos"
+"Orders with these payments are in the 'normal' group","Pedidos com esses pagamentos estão no grupo 'normal'"
+"Other payments are considered 'alternative'","Outros pagamentos são considerados 'alternativa'"
+"Special text for normal payments","texto especial para os pagamentos normais"
+"Special text for 'alternative' payments","texto especial para os pagamentos alternativos"
+
+# From file: Reminder/Block/View/Main/Grid.php
+"Order id","Id do Pedido"
+"Store","Loja"
+"Purchase date","Data da compra"
+"Shipping name","Entregar para"
+"Billing name","Cliente"
+"Amount","Quantidade"
+"Order status","Status do pedido"
+"Order type","Tipo de pedido"
+"Reminders sent","Lembretes enviados"
+"Disable notifications","Desativar notificações"
+"Payment method","Método de pagamento"
+"Manual reminders","Lembrar Manualmente"
+"Force send reminder(s) now","Forçar envio de lembrete(s) agora"
+"Enable selected","Ativar selecionado"
+"Disable selected","Desativar selecionado"
+
+# From file: Reminder/Block/View/Main/Widget/Column/Renderer/Grouptype.php
+"On account","Por conta"
+"Prepaid","Pré-pago"
+
+# From file: Reminder/Block/View/Main/Widget/Column/Renderer/Manual.php
+"Force send reminder now","Forçar enviar lembrete agora"
+
+# From file: Reminder/Block/View/Main/Widget/Column/Renderer/Payment.php
+"Enabled","Ativado"
+"Disabled","Desativado"
+
+# From file: Reminder/Block/View/Main/Widget/Column/Renderer/Reminderssent.php
+"add","Adicionar"
+"remove","Remover"
+"reset to","Redefinir para"
+
+# From file: Reminder/Block/View/Main/Widget/Column/Renderer/Status.php
+"Enable notifications","Ativar notificações"
+
+# From file: Reminder/Block/View/Main.php
+"Pending orders overview","Visão geral sobre pedidos pendentes"
+"Send reminders now","Enviar lembretes agora"
+
+# From file: Reminder/controllers/ViewController.php
+"Status changed.","Status alterado."
+"1 reminder sent manually","1 lembrete enviado manualmente"
+"Please select one or more orders","Selecione um ou mais pedidos"
+
+# From file: Reminder/Model/Attach.php
